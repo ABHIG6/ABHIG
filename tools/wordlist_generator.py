@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Cupp(ABHIG):
@@ -47,7 +47,7 @@ class showme(ABHIG):
     PROJECT_URL = "https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got"
 
 
-class WordlistGeneratorTools(ABHIG TOOLS):
+class WordlistGeneratorTools(ABHIGTOOLS):
     TITLE = "Wordlist Generator"
     TOOLS = [
         Cupp(),
