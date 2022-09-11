@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class TerminalMultiplexer(ABHIG):
@@ -14,6 +14,6 @@ class TerminalMultiplexer(ABHIG):
         super(TerminalMultiplexer, self).__init__(runnable = False)
 
 
-class MixTools(ABHIG TOOLS):
+class MixTools(ABHIGTOOLS):
     TITLE = "Mix tools"
     TOOLS = [TerminalMultiplexer()]
