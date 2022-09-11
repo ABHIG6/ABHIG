@@ -23,7 +23,7 @@
 
 
 
-# Hackingtool Menu 🧰
+# ABHIG TOOL Menu 🧰
 - [Anonymously Hiding Tools](#anonymously-hiding-tools)
 - [Information gathering tools](#information-gathering-tools)
 - [Wordlist Generator](#wordlist-generator)
