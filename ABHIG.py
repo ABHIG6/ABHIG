@@ -6,7 +6,7 @@ import webbrowser
 from platform import system
 from time import sleep
 
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 from tools.anonsurf import AnonSurfTools
 from tools.ddos import DDOSTools
 from tools.exploit_frameworks import ExploitFrameworkTools
