@@ -3,7 +3,7 @@ import os
 from time import sleep
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class UpdateTool(ABHIG):
@@ -58,7 +58,7 @@ class UninstallTool(ABHIG):
         sleep(1)
 
 
-class ToolManager(ABHIG TOOLS):
+class ToolManager(ABHIGTOOLS):
     TITLE = "Update or Uninstall | ABHIG"
     TOOLS = [
         UpdateTool(),
