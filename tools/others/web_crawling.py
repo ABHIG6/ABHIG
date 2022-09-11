@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class GoSpider(ABHIG):
@@ -13,6 +13,6 @@ class GoSpider(ABHIG):
         super(GoSpider, self).__init__(runnable = False)
 
 
-class WebCrawlingTools(ABHIG TOOLS):
+class WebCrawlingTools(ABHIGTOOLS):
     TITLE = "Web crawling"
     TOOLS = [GoSpider()]
