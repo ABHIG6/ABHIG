@@ -3,7 +3,7 @@ import os
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Dalfox(ABHIG):
@@ -131,7 +131,7 @@ class RVuln(ABHIG):
     PROJECT_URL = "https://github.com/iinc0gnit0/RVuln"
 
 
-class XSSAttackTools(ABHIG TOOLS):
+class XSSAttackTools(ABHIGTOOLS):
     TITLE = "XSS Attack Tools"
     TOOLS = [
         Dalfox(),
