@@ -5,7 +5,7 @@ import subprocess
 import webbrowser
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 from base import clear_screen
 
 
@@ -201,7 +201,7 @@ class Breacher(ABHIG):
         os.chdir("Breacher")
         subprocess.run(["python3", "breacher.py", "-u", domain])
 
-class InformationGatheringTools(ABHIG TOOLS):
+class InformationGatheringTools(ABHIGTOOLS):
     TITLE = "Information gathering tools"
     TOOLS = [
         NMAP(),
