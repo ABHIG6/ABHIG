@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Sqlmap(ABHIG):
@@ -101,7 +101,7 @@ class SQLScan(ABHIG):
     PROJECT_URL = "https://github.com/Cvar1984/sqlscan"
 
 
-class SqlInjectionTools(ABHIG TOOLS):
+class SqlInjectionTools(ABHIGTOOLS):
     TITLE = "SQL Injection Tools"
     TOOLS = [
         Sqlmap(),
