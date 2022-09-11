@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Keydroid(ABHIG):
@@ -56,7 +56,7 @@ class EvilApp(ABHIG):
     PROJECT_URL = "https://github.com/crypticterminal/EvilApp"
 
 
-class AndroidAttackTools(ABHIG TOOLS):
+class AndroidAttackTools(ABHIGTOOLS):
     TITLE = "Android Hacking tools"
     TOOLS = [
         Keydroid(),
