@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class DebInject(ABHIG):
@@ -29,7 +29,7 @@ class Pixload(ABHIG):
         super(Pixload, self).__init__(runnable = False)
 
 
-class PayloadInjectorTools(ABHIG TOOLS):
+class PayloadInjectorTools(ABHIGTOOLS):
     TITLE = "Payload Injector"
     TOOLS = [
         DebInject(),
