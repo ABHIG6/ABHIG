@@ -2,7 +2,7 @@
 import os
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class TheFatRat(ABHIG):
@@ -127,7 +127,7 @@ class Enigma(ABHIG):
     PROJECT_URL = "https://github.com/UndeadSec/Enigma"
 
 
-class PayloadCreatorTools(ABHIG TOOLS):
+class PayloadCreatorTools(ABHIGTOOLS):
     TITLE = "Payload creation tools"
     TOOLS = [
         TheFatRat(),
