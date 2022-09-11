@@ -2,7 +2,7 @@
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 from base import validate_input
 
 
@@ -73,7 +73,7 @@ class Whitespace(ABHIG):
     PROJECT_URL = "https://github.com/beardog108/snow10"
 
 
-class SteganographyTools(ABHIG TOOLS):
+class SteganographyTools(ABHIGTOOLS):
     TITLE = "Steganograhy tools"
     TOOLS = [
         SteganoHide(),
