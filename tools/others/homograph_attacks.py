@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class EvilURL(ABHIG):
@@ -12,6 +12,6 @@ class EvilURL(ABHIG):
     PROJECT_URL = "https://github.com/UndeadSec/EvilURL"
 
 
-class IDNHomographAttackTools(ABHIG TOOLS):
+class IDNHomographAttackTools(ABHIGTOOLS):
     TITLE = "IDN Homograph Attack"
     TOOLS = [EvilURL()]
