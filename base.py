@@ -139,7 +139,7 @@ class ABHIG(object):
         webbrowser.open_new_tab(self.PROJECT_URL)
 
 
-class ABHIG TOOLS(object):
+class ABHIGTOOLS(object):
     TITLE: str = ""  # used to show info in the menu
     DESCRIPTION: str = ""
     TOOLS = []  # type: List[Any[ABHIG, ABHIG TOOLS]]
