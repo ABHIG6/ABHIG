@@ -2,7 +2,7 @@
 import os
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class WIFIPumpkin(ABHIG):
@@ -137,7 +137,7 @@ class Howmanypeople(ABHIG):
     RUN_COMMANDS = ["howmanypeoplearearound"]
 
 
-class WirelessAttackTools(ABHIG TOOLS):
+class WirelessAttackTools(ABHIGTOOLS):
     TITLE = "Wireless attack tools"
     DESCRIPTION = ""
     TOOLS = [
