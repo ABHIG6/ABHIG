@@ -2,7 +2,7 @@
 import os
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class AnonymouslySurf(ABHIG):
@@ -37,7 +37,7 @@ class Multitor(ABHIG):
         super(Multitor, self).__init__(runnable = False)
 
 
-class AnonSurfTools(ABHIG TOOLS):
+class AnonSurfTools(ABHIGTOOLS):
     TITLE = "Anonymously Hiding Tools"
     DESCRIPTION = ""
     TOOLS = [
