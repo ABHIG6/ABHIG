@@ -3,7 +3,7 @@ import os
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class FacialFind(ABHIG):
@@ -77,7 +77,7 @@ class SocialScan(ABHIG):
         subprocess.run(["sudo", "socialscan", f"{name}"])
 
 
-class SocialMediaFinderTools(ABHIG TOOLS):
+class SocialMediaFinderTools(ABHIGTOOLS):
     TITLE = "SocialMedia Finder"
     TOOLS = [
         FacialFind(),
