@@ -3,7 +3,7 @@ import os
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 class ddos(ABHIG):
     TITLE ="ddos"
@@ -90,7 +90,7 @@ class GoldenEye(ABHIG):
               "[*] USAGE: ./goldeneye.py <url> [OPTIONS]")
 
 
-class DDOSTools(ABHIG TOOLS):
+class DDOSTools(ABHIGTOOLS):
     TITLE = "DDOS Attack Tools"
     TOOLS = [
         SlowLoris(),
