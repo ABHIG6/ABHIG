@@ -67,7 +67,7 @@ all_tools = [
 ]
 
 
-class AllTools(ABHIG TOOLS):
+class AllTools(ABHIGTOOLS):
     TITLE = "All tools"
     TOOLS = all_tools
 
