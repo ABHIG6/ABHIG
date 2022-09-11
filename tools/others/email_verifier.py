@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class KnockMail(ABHIG):
@@ -14,7 +14,7 @@ class KnockMail(ABHIG):
     PROJECT_URL = "https://github.com/heywoodlh/KnockMail"
 
 
-class EmailVerifyTools(ABHIG TOOLS):
+class EmailVerifyTools(ABHIGTOOLS):
     TITLE = "Email Verify tools"
     TOOLS = [KnockMail()]
     
