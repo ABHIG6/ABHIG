@@ -3,7 +3,7 @@ import os
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class InstaBrute(ABHIG):
@@ -64,7 +64,7 @@ class AppCheck(ABHIG):
     PROJECT_URL = "https://github.com/jakuta-tech/underhanded"
 
 
-class SocialMediaBruteforceTools(ABHIG TOOLS):
+class SocialMediaBruteforceTools(ABHIGTOOLS):
     TITLE = "SocialMedia Bruteforce"
     TOOLS = [
         InstaBrute(),
