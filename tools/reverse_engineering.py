@@ -2,7 +2,7 @@
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class AndroGuard(ABHIG):
@@ -47,7 +47,7 @@ class Jadx(ABHIG):
         super(Jadx, self).__init__(runnable = False)
 
 
-class ReverseEngineeringTools(ABHIG TOOLS):
+class ReverseEngineeringTools(ABHIGTOOLS):
     TITLE = "Reverse engineering tools"
     TOOLS = [
         AndroGuard(),
