@@ -1,8 +1,8 @@
 # coding=utf-8
 import os
 
-from base import ABHIG TOOLS
-from base import ABHIG TOOLS
+from base import ABHIG
+from base import ABHIGTOOLS
 
 
 class Autopsy(ABHIG):
@@ -80,7 +80,7 @@ class Toolsley(ABHIG):
         super(Toolsley, self).__init__(installable = False, runnable = False)
 
 
-class ForensicTools(ABHIG TOOLS):
+class ForensicTools(ABHIGTOOLS):
     TITLE = "Forensic tools"
     TOOLS = [
         Autopsy(),
