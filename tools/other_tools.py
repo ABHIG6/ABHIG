@@ -3,7 +3,7 @@ import os
 import subprocess
 
 from base import ABHIG
-from base import ABHIG
+from base import ABHIGTOOLS
 from tools.others.android_attack import AndroidAttackTools
 from tools.others.email_verifier import EmailVerifyTools
 from tools.others.hash_crack import HashCrackingTools
@@ -29,7 +29,7 @@ class HatCloud(ABHIG):
         subprocess.run(["sudo", "ruby", "hatcloud.rb", "-b", site])
 
 
-class OtherTools(ABHIG TOOLS):
+class OtherTools(ABHIGTOOLS):
     TITLE = "Other tools"
     TOOLS = [
         SocialMediaBruteforceTools(),
