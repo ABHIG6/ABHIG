@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Stitch(ABHIG):
@@ -28,7 +28,7 @@ class Pyshell(ABHIG):
     PROJECT_URL = "https://github.com/knassar702/pyshell"
 
 
-class RemoteAdministrationTools(ABHIG TOOLS):
+class RemoteAdministrationTools(ABHIGTOOLS):
     TITLE = "Remote Administrator Tools (RAT)"
     TOOLS = [
         Stitch(),
