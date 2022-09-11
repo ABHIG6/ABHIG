@@ -2,7 +2,7 @@
 import os
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Setoolkit(ABHIG):
@@ -115,7 +115,7 @@ class BlackPhish(ABHIG):
         os.system("cd BlackPhish;sudo bash update.sh")
 
 
-class PhishingAttackTools(ABHIG TOOLS):
+class PhishingAttackTools(ABHIGTOOLS):
     TITLE = "Phishing attack tools"
     TOOLS = [
         Setoolkit(),
