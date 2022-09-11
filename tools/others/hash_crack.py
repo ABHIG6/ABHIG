@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class HashBuster(ABHIG):
@@ -16,6 +16,6 @@ class HashBuster(ABHIG):
     PROJECT_URL = "https://github.com/s0md3v/Hash-Buster"
 
 
-class HashCrackingTools(ABHIG TOOLS):
+class HashCrackingTools(ABHIGTOOLS):
     TITLE = "Hash cracking tools"
     TOOLS = [HashBuster()]
