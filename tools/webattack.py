@@ -2,7 +2,7 @@
 import subprocess
 
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class Web2Attack(ABHIG):
@@ -98,7 +98,7 @@ class Dirb(ABHIG):
         subprocess.run(["sudo", "dirb", uinput])
 
 
-class WebAttackTools(ABHIG TOOLS):
+class WebAttackTools(ABHIGTOOLS):
     TITLE = "Web Attack tools"
     DESCRIPTION = ""
     TOOLS = [
