@@ -1,6 +1,6 @@
 # coding=utf-8
 from base import ABHIG
-from base import ABHIG TOOLS
+from base import ABHIGTOOLS
 
 
 class WifiJammerNG(ABHIG):
@@ -29,7 +29,7 @@ class KawaiiDeauther(ABHIG):
     PROJECT_URL = "https://github.com/aryanrtm/KawaiiDeauther"
 
 
-class WifiJammingTools(ABHIG TOOLS):
+class WifiJammingTools(ABHIGTOOLS):
     TITLE = "Wifi Deauthenticate"
     TOOLS = [
         WifiJammerNG(),
